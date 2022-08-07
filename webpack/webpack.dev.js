@@ -71,7 +71,7 @@ const config = {
     inline: true,
     compress: true,
     hot: true,
-    disableHostCheck: false,
+    disableHostCheck: true,
     historyApiFallback: true,
     proxy: {
       '/api': 'http://localhost:3000'
